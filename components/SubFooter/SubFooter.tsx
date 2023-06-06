@@ -210,7 +210,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                     snel mogelijk contact met je op!
                 </p>
                 <img
-                    className="absolute right-[-10px] top-[120px] z-[-1] md:right-0 md:w-[770px]"
+                    className="absolute right-[-10px] top-[120px] z-[-1] w-[270px] md:right-0 md:w-[770px]"
                     src="/map.svg"
                     alt="kaart van nederland met locaties"
                 />
@@ -219,7 +219,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                     src="/arrow.svg"
                     alt="arrow"
                 />
-                <h3 className="mt-48 mb-6 text-base md:mt-[500px]">Contactformulier</h3>
+                <h3 className="mt-24 mb-6 text-base md:mt-[500px]">Contactformulier</h3>
                 <form onSubmit={handleFormSubmit} id="contactForm">
                     <div className="flex flex-col mb-6 md:w-max-[900px] md:w-[900px]">
                         <input

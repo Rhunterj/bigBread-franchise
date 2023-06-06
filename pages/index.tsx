@@ -12,7 +12,7 @@ export default function Home() {
             <main className="flex flex-col content-center">
                 <div className="flex flex-col w-full">
                     <div className="md:max-w-[1400px] mx-auto px-6 py-6 md:py-12">
-                         <h1 className="mb-6 text-5xl font-bold">
+                         <h1 className="mb-6 text-2xl font-bold md:text-5xl">
                             Bij BB Kitchen staat jouw succes op nr 1!
                         </h1>
                         <p className="mb-6 md:text-xl">
@@ -43,25 +43,25 @@ export default function Home() {
                                 door;
                             </h2>
                             <ul className="relative z-10 flex justify-between mb-6 md:mb-12">
-                                <li className="flex-col mb-2 rounded-full bg-primary w-[80px] h-[80px] md:flex md:text-lg md:justify-center md:w-[200px] md:h-[200px] text-center text-[10px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col mb-2 rounded-full bg-primary w-[80px] h-[80px] md:flex md:text-lg md:justify-center md:w-[200px] md:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <span className="block text-xl text-center md:text-5xl">
                                         1
                                     </span>
                                     Uitgebreide financiële ondersteuning
                                 </li>
-                                <li className="flex-col mb-2 rounded-full bg-primary w-[80px] h-[80px] md:flex md:text-lg md:justify-center md:w-[200px] md:h-[200px] text-center text-[10px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col mb-2 rounded-full bg-primary w-[80px] h-[80px] md:flex md:text-lg md:justify-center md:w-[200px] md:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <span className="block text-xl text-center md:text-5xl">
                                         2
                                     </span>
                                     Ondersteuning in bedrijfsvoering
                                 </li>
-                                <li className="flex-col mb-2 rounded-full bg-primary w-[80px] h-[80px] md:flex md:text-lg md:justify-center md:w-[200px] md:h-[200px] text-center text-[10px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col mb-2 rounded-full bg-primary w-[80px] h-[80px] md:flex md:text-lg md:justify-center md:w-[200px] md:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <span className="block text-xl text-center md:text-5xl">
                                         3
                                     </span>
                                     Marketing- technische ondersteuning
                                 </li>
-                                <li className="flex-col mb-2 rounded-full bg-primary w-[80px] h-[80px] md:flex md:text-lg md:justify-center md:w-[200px] md:h-[200px] text-center text-[10px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col mb-2 rounded-full bg-primary w-[80px] h-[80px] md:flex md:text-lg md:justify-center md:w-[200px] md:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <span className="block text-xl text-center md:text-5xl">
                                         4
                                     </span>

@@ -16,7 +16,7 @@ export const FaqPage = () => {
             <main>
                 <div className="flex flex-col w-full px-6 py-6 md:py-12">
                     <div className="md:max-w-[1400px] mx-auto w-full">
-                         <h1 className="mb-6 text-5xl font-bold">
+                         <h1 className="mb-6 text-2xl md:text-5xl font-bold">
                             Veel gestelde vragen
                         </h1>
                         <img

@@ -16,7 +16,7 @@ export const AboutPage = () => {
             <main>
                 <div className="flex flex-col w-full px-6 py-6 md:py-12">
                     <div className="md:max-w-[1400px] mx-auto">
-                         <h1 className="mb-6 text-5xl font-bold">Jouw start</h1>
+                         <h1 className="mb-6 text-2xl md:text-5xl font-bold">Jouw start</h1>
                         <p className="mb-6 md:text-xl">
                             Ons voornaamste doel is jouw een succesvolle
                             ondernemer te laten worden. Om die reden bieden wij

@@ -10,7 +10,7 @@ export const AboutPage = () => {
             <main>
                 <div className="flex flex-col w-full px-6 py-6 md:py-12">
                     <div className="md:max-w-[1400px] mx-auto">
-                         <h1 className="mb-6 text-5xl font-bold">Onze start</h1>
+                         <h1 className="mb-6 text-2xl md:text-5xl font-bold">Onze start</h1>
                         <p className="mb-6 md:text-xl">
                             BB Kitchen is opgericht in 2008 door Sheng Chen.
                             Vanuit zijn horeca-ervaring is hij in 2003 gestart
