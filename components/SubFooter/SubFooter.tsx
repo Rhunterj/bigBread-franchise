@@ -1,6 +1,9 @@
 import { useState } from 'react'
+type SubFooterProps = {
+    spacing?: boolean
+}
 
-export const SubFooter = () => {
+export const SubFooter = ({ spacing }: SubFooterProps) => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [phone, setPhone] = useState('')
@@ -30,33 +33,195 @@ export const SubFooter = () => {
 
     return (
         <>
-            <div className="flex flex-col w-full px-6 py-6 bg-[#fff]">
-                <h2 className="mb-6 text-3xl font-bold text-[#000]">
-                    Open een BB Kitchen vestiging in 12 stappen!
-                </h2>
+            <div className="px-6 py-6 md:py-12 bg-[#fff]">
+                <div className={`flex flex-col w-full md:max-w-[1400px] mx-auto ${spacing ? 'md:mt-[125px]' : ''}`}>
+                    <h2 className="mb-6 text-3xl font-bold text-[#363636] md:text-5xl md:mb-16 md:mt-20">
+                        Open een BB Kitchen vestiging in 12 stappen!
+                    </h2>
+                    <div className="md:hidden">
+                        <img
+                            src="/part1.svg"
+                            alt="graphic"
+                            className="w-full mt-4 mb-6"
+                        />
+                        <div className="flex flex-row w-full py-2 text-black">
+                            <p className="text-[#161615] text-xs w-1/2 mr-4">
+                                1. Franchise brochure aanvragen via het
+                                contactformulier.
+                            </p>
+                            <p className="text-[#161615] text-xs w-1/2">
+                                2. Wij nemen jouw aanvraag in behandeling.
+                            </p>
+                        </div>
+                        <div className="flex flex-row w-full py-2 text-black">
+                            <p className="text-[#161615] text-xs w-1/2 mr-4">
+                                3. Iemand van het werving en selectie team neemt
+                                telefonisch contact op om kennis te maken.
+                            </p>
+                            <p className="text-[#161615] text-xs w-1/2">
+                                4. Je ontvangt de franchisebrochure per e-mail.
+                            </p>
+                        </div>
+                        <img
+                            src="/part2.svg"
+                            alt="graphic"
+                            className="w-full mt-4 mb-6"
+                        />
+                        <div className="flex flex-row w-full py-2 text-black">
+                            <p className="text-[#161615] text-xs w-1/2 mr-4">
+                                5. Er is een tweede contact moment voor extra
+                                vragen en het inplannen van een
+                                kennismakingsgesprek.
+                            </p>
+                            <p className="text-[#161615] text-xs w-1/2">
+                                6. Op ons hoofdkantoor krijg je een uitgebreide
+                                presentatie en daarna gaan we sfeer en gerechten
+                                proeven in onze BB Kitchen vestiging.
+                            </p>
+                        </div>
+                        <div className="flex flex-row w-full py-2 text-black">
+                            <p className="text-[#161615] text-xs w-1/2 mr-4">
+                                7. Evaluatie en geheimhoudingsverklaring.
+                            </p>
+                            <p className="text-[#161615] text-xs w-1/2">
+                                8. Rondleiding en proeven van producten in een
+                                BB Kitchen vestiging.
+                            </p>
+                        </div>
+                        <img
+                            src="/part3.svg"
+                            alt="graphic"
+                            className="w-full mt-4 mb-6"
+                        />
+                        <div className="flex flex-row w-full py-2 text-black">
+                            <p className="text-[#161615] text-xs w-1/2 mr-4">
+                                9. Afspraak met werving en selectie en
+                                franchisegever.
+                            </p>
+                            <p className="text-[#161615] text-xs w-1/2">
+                                10. Tekenen voorovereenkomst, tevens
+                                intentieverklaring.
+                            </p>
+                        </div>
+                        <div className="flex flex-row w-full py-2 text-black">
+                            <p className="text-[#161615] text-xs w-1/2 mr-4">
+                                11. Start ﬁnanciering, locatie zoeken en
+                                verbouwing.
+                            </p>
+                            <p className="text-[#161615] text-xs w-1/2">
+                                12. Opening BB Kitchen vestiging
+                            </p>
+                        </div>
+                    </div>
+                    <div className="hidden md:flex md:flex-col">
+                        <img src="/graphicdesktop.svg" alt="graphic" />
+                        <hr className="border-b-1 border-[#A3A3A3] opacity-10 my-2" />
+                        <div className="flex flex-row justify-around">
+                            <div className="w-[30%]">
+                                <p className="text-[#161615] mb-4 text-lg font-medium">
+                                    1. Franchise brochure aanvragen via het
+                                    contactformulier.
+                                </p>
+                                <p className="text-[#161615] mb-4 text-lg font-medium">
+                                    2. Je ontvangt direct de BB Kitchen
+                                    franchise brochure per e-mail.
+                                </p>
+                            </div>
+                            <div className="px-4 w-[30%]">
+                                <p className="text-[#161615] mb-4 text-lg font-medium">
+                                    3. Iemand van het werving en selectie team
+                                    neemt telefonisch contact op om kennis te
+                                    maken.
+                                </p>
+                                <p className="text-[#161615] mb-4 text-lg font-medium">
+                                    4. Je ontvangt een vragenformulier per
+                                    e-mail.
+                                </p>
+                            </div>
+                            <div className="w-[30%]">
+                                <p className="text-[#161615] mb-4 text-lg font-medium">
+                                    5. Naar aanleiding van de ingevulde
+                                    vragenlijst kijken we of er een match is.
+                                </p>
+                                <p className="text-[#161615] mb-4 text-lg font-medium">
+                                    6. We sturen je een uitgebreide franchise
+                                    brochure met details over de ﬁnanciën van
+                                    een BB Kitchen vestiging.
+                                </p>
+                            </div>
+                        </div>
+                        <img
+                            src="/graphicdesktop2.svg"
+                            alt="graphic"
+                            className="mt-10"
+                        />
+                        <hr className="border-b-1 border-[#A3A3A3] opacity-10 my-2" />
+                        <div className="flex flex-row justify-around">
+                            <div className="w-[30%]">
+                                <p className="text-[#161615] mb-4 text-lg font-medium">
+                                    7. Indien er interesse van beide kanten is
+                                    wordt de intentieovereenkomst gekeken.
+                                </p>
+                                <p className="text-[#161615] mb-4 text-lg font-medium">
+                                    8. We gaan kijken of er een locatie
+                                    beschikbaar is, zo net gaan we direct op
+                                    zoek.
+                                </p>
+                            </div>
+                            <div className="px-4 w-[30%]">
+                                <p className="text-[#161615] mb-4 text-lg font-medium">
+                                    9. Tweede afspraak met werving en selectie
+                                    en franchisegever, bij voorkeur op een
+                                    eventuele locatie
+                                </p>
+                                <p className="text-[#161615] mb-4 text-lg font-medium">
+                                    10. De koop, huur en franchiseovereenkomst
+                                    worden getekend waarna de financierings-
+                                    aanvraag ingediend wordt.
+                                </p>
+                            </div>
+                            <div className="w-[30%]">
+                                <p className="text-[#161615] mb-4 text-lg font-medium">
+                                    11. De verbouwing gaat van start, in deze
+                                    tijd ga jij inwerken bij een bestaande BB
+                                    Kitchen vestiging.
+                                </p>
+                                <p className="text-[#161615] mb-4 text-lg font-medium">
+                                    12. Opening van jouw BB Kitchen vestiging!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="relative flex flex-col w-full px-6 py-6 overflow-hidden">
-                <h2 className="w-[55%] p-0 mb-6 text-xl font-bold">
-                    Is jouw <span className="text-3xl font-bold">locatie</span>{' '}
-                    de <span className="text-3xl font-bold">volgende</span>?
+            <div className="relative flex flex-col w-full px-6 py-6 md:py-12 overflow-hidden md:max-w-[1400px] mx-auto">
+                <h2 className="w-[80%] p-0 mb-6 text-xl font-bold md:text-2xl">
+                    Is jouw <span className="text-3xl font-bold md:text-5xl">locatie</span>
+                    <br />
+                    de <span className="text-3xl font-bold md:text-5xl">volgende?</span>
                 </h2>
-                <p className="w-1/2 mb-6 leading-4">
+                <p className="w-1/2 mb-6 leading-4 text-[10px] md:text-xl">
                     BB Kitchen heeft momenteel al meer dan 30 vestigingen! We
                     groeien, hopelijk ook met jou erbij!Wij streven naar 100 BB
                     Kitchen vestigingen.
                 </p>
-                <p className="w-1/2 mb-6 leading-4">
+                <p className="w-1/2 mb-6 leading-4 text-[10px] md:text-xl">
                     Vraag hieronder het informatiepakket aan en wij nemen zo
                     snel mogelijk contact met je op!
                 </p>
                 <img
-                    className="absolute right-[0] top-[200px]"
-                    src="/map.png"
+                    className="absolute right-[-10px] top-[120px] z-[-1] md:right-0 md:w-[770px]"
+                    src="/map.svg"
                     alt="kaart van nederland met locaties"
                 />
-                <h3 className="mt-48 mb-6 text-base">Contactformulier</h3>
+                <img
+                    className="absolute left-[45px] top-[300px] md:h-[140px] md:top-[450px] md:left-[100px]"
+                    src="/arrow.svg"
+                    alt="arrow"
+                />
+                <h3 className="mt-48 mb-6 text-base md:mt-[500px]">Contactformulier</h3>
                 <form onSubmit={handleFormSubmit} id="contactForm">
-                    <div className="flex flex-col mb-6">
+                    <div className="flex flex-col mb-6 md:w-max-[900px] md:w-[900px]">
                         <input
                             className="px-4 py-2 border border-gray-300 rounded text-[#000]"
                             type="text"
@@ -66,7 +231,7 @@ export const SubFooter = () => {
                             onChange={handleNameChange}
                         />
                     </div>
-                    <div className="flex flex-col mb-6">
+                    <div className="flex flex-col mb-6 md:w-max-[900px] md:w-[900px]">
                         <input
                             className="px-4 py-2 border border-gray-300 rounded text-[#000]"
                             type="text"
@@ -76,7 +241,7 @@ export const SubFooter = () => {
                             onChange={handleAddressChange}
                         />
                     </div>
-                    <div className="flex flex-col mb-6">
+                    <div className="flex flex-col mb-6 md:w-max-[900px] md:w-[900px]">
                         <input
                             className="px-4 py-2 border border-gray-300 rounded text-[#000]"
                             type="tel"
@@ -86,7 +251,7 @@ export const SubFooter = () => {
                             onChange={handlePhoneChange}
                         />
                     </div>
-                    <div className="flex flex-col mb-6">
+                    <div className="flex flex-col mb-6 md:w-max-[900px] md:w-[900px]">
                         <input
                             className="px-4 py-2 border border-gray-300 rounded text-[#000]"
                             type="email"
@@ -96,7 +261,7 @@ export const SubFooter = () => {
                             onChange={handleEmailChange}
                         />
                     </div>
-                    <div className="flex flex-col mb-6">
+                    <div className="flex flex-col mb-6 md:w-max-[900px] md:w-[900px]">
                         <textarea
                             className="px-4 py-2 border border-gray-300 rounded text-[#000]"
                             name="message"
