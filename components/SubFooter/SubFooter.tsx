@@ -33,32 +33,32 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
 
     return (
         <>
-            <div className="px-6 py-6 md:py-12 bg-[#fff]">
-                <div className={`flex flex-col w-full md:max-w-[1400px] mx-auto ${spacing ? 'md:mt-[125px]' : ''}`}>
-                    <h2 className="mb-6 text-3xl font-bold text-[#363636] md:text-5xl md:mb-16 md:mt-20">
+            <div className="px-6 py-6 xl:py-12 bg-[#fff]">
+                <div className={`flex flex-col w-full xl:max-w-[1400px] mx-auto ${spacing ? 'xl:mt-[125px]' : ''}`}>
+                    <h2 className="mb-6 text-3xl font-bold text-[#363636] xl:text-5xl xl:mb-16 xl:mt-20">
                         Open een BB Kitchen vestiging in 12 stappen!
                     </h2>
-                    <div className="md:hidden">
+                    <div className="xl:hidden">
                         <img
                             src="/part1.svg"
                             alt="graphic"
                             className="w-full mt-4 mb-6"
                         />
                         <div className="flex flex-row w-full py-2 text-black">
-                            <p className="text-[#161615] text-xs w-1/2 mr-4">
+                            <p className="text-[#161615] text-xs w-1/2 mr-4 font-medium">
                                 1. Franchise brochure aanvragen via het
                                 contactformulier.
                             </p>
-                            <p className="text-[#161615] text-xs w-1/2">
+                            <p className="text-[#161615] text-xs w-1/2 font-medium">
                                 2. Wij nemen jouw aanvraag in behandeling.
                             </p>
                         </div>
                         <div className="flex flex-row w-full py-2 text-black">
-                            <p className="text-[#161615] text-xs w-1/2 mr-4">
+                            <p className="text-[#161615] text-xs w-1/2 mr-4 font-medium">
                                 3. Iemand van het werving en selectie team neemt
                                 telefonisch contact op om kennis te maken.
                             </p>
-                            <p className="text-[#161615] text-xs w-1/2">
+                            <p className="text-[#161615] text-xs w-1/2 font-medium">
                                 4. Je ontvangt de franchisebrochure per e-mail.
                             </p>
                         </div>
@@ -68,22 +68,22 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                             className="w-full mt-4 mb-6"
                         />
                         <div className="flex flex-row w-full py-2 text-black">
-                            <p className="text-[#161615] text-xs w-1/2 mr-4">
+                            <p className="text-[#161615] text-xs w-1/2 mr-4 font-medium">
                                 5. Er is een tweede contact moment voor extra
                                 vragen en het inplannen van een
                                 kennismakingsgesprek.
                             </p>
-                            <p className="text-[#161615] text-xs w-1/2">
+                            <p className="text-[#161615] text-xs w-1/2 font-medium">
                                 6. Op ons hoofdkantoor krijg je een uitgebreide
                                 presentatie en daarna gaan we sfeer en gerechten
                                 proeven in onze BB Kitchen vestiging.
                             </p>
                         </div>
                         <div className="flex flex-row w-full py-2 text-black">
-                            <p className="text-[#161615] text-xs w-1/2 mr-4">
+                            <p className="text-[#161615] text-xs w-1/2 mr-4 font-medium">
                                 7. Evaluatie en geheimhoudingsverklaring.
                             </p>
-                            <p className="text-[#161615] text-xs w-1/2">
+                            <p className="text-[#161615] text-xs w-1/2 font-medium">
                                 8. Rondleiding en proeven van producten in een
                                 BB Kitchen vestiging.
                             </p>
@@ -94,26 +94,26 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                             className="w-full mt-4 mb-6"
                         />
                         <div className="flex flex-row w-full py-2 text-black">
-                            <p className="text-[#161615] text-xs w-1/2 mr-4">
+                            <p className="text-[#161615] text-xs w-1/2 mr-4 font-medium">
                                 9. Afspraak met werving en selectie en
                                 franchisegever.
                             </p>
-                            <p className="text-[#161615] text-xs w-1/2">
+                            <p className="text-[#161615] text-xs w-1/2 font-medium">
                                 10. Tekenen voorovereenkomst, tevens
                                 intentieverklaring.
                             </p>
                         </div>
                         <div className="flex flex-row w-full py-2 text-black">
-                            <p className="text-[#161615] text-xs w-1/2 mr-4">
+                            <p className="text-[#161615] text-xs w-1/2 mr-4 font-medium">
                                 11. Start ﬁnanciering, locatie zoeken en
                                 verbouwing.
                             </p>
-                            <p className="text-[#161615] text-xs w-1/2">
+                            <p className="text-[#161615] text-xs w-1/2 font-medium">
                                 12. Opening BB Kitchen vestiging
                             </p>
                         </div>
                     </div>
-                    <div className="hidden md:flex md:flex-col">
+                    <div className="hidden xl:flex xl:flex-col">
                         <img src="/graphicdesktop.svg" alt="graphic" />
                         <hr className="border-b-1 border-[#A3A3A3] opacity-10 my-2" />
                         <div className="flex flex-row justify-around">
@@ -194,34 +194,34 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                     </div>
                 </div>
             </div>
-            <div className="relative flex flex-col w-full px-6 py-6 md:py-12 overflow-hidden md:max-w-[1400px] mx-auto">
-                <h2 className="w-[80%] p-0 mb-6 text-xl font-bold md:text-2xl">
-                    Is jouw <span className="text-3xl font-bold md:text-5xl">locatie</span>
+            <div className="relative flex flex-col w-full px-6 py-6 xl:py-12 overflow-hidden xl:max-w-[1400px] mx-auto">
+                <h2 className="w-[80%] p-0 mb-6 text-xl font-bold xl:text-2xl">
+                    Is jouw <span className="text-3xl font-bold xl:text-5xl">locatie</span>
                     <br />
-                    de <span className="text-3xl font-bold md:text-5xl">volgende?</span>
+                    de <span className="text-3xl font-bold xl:text-5xl">volgende?</span>
                 </h2>
-                <p className="w-1/2 mb-6 leading-4 text-[10px] md:text-xl">
+                <p className="w-1/2 mb-6 leading-4 text-[10px] font-medium xl:text-xl">
                     BB Kitchen heeft momenteel al meer dan 30 vestigingen! We
                     groeien, hopelijk ook met jou erbij!Wij streven naar 100 BB
                     Kitchen vestigingen.
                 </p>
-                <p className="w-1/2 mb-6 leading-4 text-[10px] md:text-xl">
+                <p className="w-1/2 mb-6 leading-4 text-[10px] font-medium xl:text-xl">
                     Vraag hieronder het informatiepakket aan en wij nemen zo
                     snel mogelijk contact met je op!
                 </p>
                 <img
-                    className="absolute right-[-10px] top-[120px] z-[-1] w-[270px] md:right-0 md:w-[770px]"
+                    className="absolute right-[-10px] top-[120px] z-[-1] w-[270px] md:right-0 md:w-[550px] xl:w-[770px]"
                     src="/map.svg"
                     alt="kaart van nederland met locaties"
                 />
                 <img
-                    className="absolute left-[45px] top-[300px] md:h-[140px] md:top-[450px] md:left-[100px]"
+                    className="absolute left-[45px] top-[300px] md:h-[140px] md:top-[300px] xl:top-[450px] md:left-[100px]"
                     src="/arrow.svg"
                     alt="arrow"
                 />
-                <h3 className="mt-24 mb-6 text-base md:mt-[500px]">Contactformulier</h3>
+                <h3 className="mt-24 mb-6 text-base font-medium md:mt-[500px]">Contactformulier</h3>
                 <form onSubmit={handleFormSubmit} id="contactForm">
-                    <div className="flex flex-col mb-6 md:w-max-[900px] md:w-[900px]">
+                    <div className="flex flex-col mb-6 xl:w-max-[900px] xl:w-[900px]">
                         <input
                             className="px-4 py-2 border border-gray-300 rounded text-[#000]"
                             type="text"
@@ -231,7 +231,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                             onChange={handleNameChange}
                         />
                     </div>
-                    <div className="flex flex-col mb-6 md:w-max-[900px] md:w-[900px]">
+                    <div className="flex flex-col mb-6 xl:w-max-[900px] xl:w-[900px]">
                         <input
                             className="px-4 py-2 border border-gray-300 rounded text-[#000]"
                             type="text"
@@ -241,7 +241,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                             onChange={handleAddressChange}
                         />
                     </div>
-                    <div className="flex flex-col mb-6 md:w-max-[900px] md:w-[900px]">
+                    <div className="flex flex-col mb-6 xl:w-max-[900px] xl:w-[900px]">
                         <input
                             className="px-4 py-2 border border-gray-300 rounded text-[#000]"
                             type="tel"
@@ -251,7 +251,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                             onChange={handlePhoneChange}
                         />
                     </div>
-                    <div className="flex flex-col mb-6 md:w-max-[900px] md:w-[900px]">
+                    <div className="flex flex-col mb-6 xl:w-max-[900px] xl:w-[900px]">
                         <input
                             className="px-4 py-2 border border-gray-300 rounded text-[#000]"
                             type="email"
@@ -261,7 +261,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                             onChange={handleEmailChange}
                         />
                     </div>
-                    <div className="flex flex-col mb-6 md:w-max-[900px] md:w-[900px]">
+                    <div className="flex flex-col mb-6 xl:w-max-[900px] xl:w-[900px]">
                         <textarea
                             className="px-4 py-2 border border-gray-300 rounded text-[#000]"
                             name="message"
@@ -270,7 +270,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                             onChange={handleMessageChange}
                         />
                     </div>
-                    <button className="px-8 py-2 md:px-16 md:py-4 text-xs font-bold bg-secondary rounded text-[#fff]">
+                    <button className="px-8 py-2 xl:px-16 xl:py-4 text-xs font-bold bg-secondary rounded text-[#fff]">
                         Verstuur
                     </button>
                 </form>

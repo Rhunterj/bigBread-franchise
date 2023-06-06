@@ -14,9 +14,9 @@ export const FaqPage = () => {
             <Header />
             <Hero image="/Faq.png" />
             <main>
-                <div className="flex flex-col w-full px-6 py-6 md:py-12">
-                    <div className="md:max-w-[1400px] mx-auto w-full">
-                         <h1 className="mb-6 text-2xl md:text-5xl font-bold">
+                <div className="flex flex-col w-full px-6 py-6 xl:py-12">
+                    <div className="xl:max-w-[1400px] mx-auto w-full">
+                         <h1 className="mb-6 text-2xl font-bold xl:text-5xl">
                             Veel gestelde vragen
                         </h1>
                         <img
@@ -29,7 +29,7 @@ export const FaqPage = () => {
                                 <div className="">
                                     <details className="group">
                                         <summary className="flex items-center justify-between font-medium list-none cursor-pointer group-open:bg-secondary">
-                                            <span className="p-2 md:text-lg">
+                                            <span className="p-2 xl:text-lg">
                                                 Hoeveel eigen geld moet ik
                                                 inbrengen?
                                             </span>
@@ -50,7 +50,7 @@ export const FaqPage = () => {
                                                 </svg>
                                             </span>
                                         </summary>
-                                        <p className="mt-3 mb-3 text-sm md:text-lg text-neutral-600 group-open:animate-fadeIn">
+                                        <p className="mt-3 mb-3 text-sm xl:font-semibold xl:text-sm text-neutral-600 group-open:animate-fadeIn">
                                             Je dient ongeveer 30% eigen geld in
                                             te brengen van de totale
                                             investering. Deze ligt tussen de €
@@ -65,7 +65,7 @@ export const FaqPage = () => {
                                 <div className="">
                                     <details className="group">
                                         <summary className="flex items-center justify-between font-medium list-none cursor-pointer group-open:bg-secondary">
-                                            <span className="p-2 md:text-lg">
+                                            <span className="p-2 xl:text-lg">
                                                 Ik heb al een eigen locatie, kan
                                                 ik dan ook bij BB Kitchen
                                                 terecht?
@@ -87,7 +87,7 @@ export const FaqPage = () => {
                                                 </svg>
                                             </span>
                                         </summary>
-                                        <p className="mt-3 mb-3 text-sm md:text-lg text-neutral-600 group-open:animate-fadeIn">
+                                        <p className="mt-3 mb-3 text-sm xl:font-semibold xl:text-sm text-neutral-600 group-open:animate-fadeIn">
                                             Als je een eigen locatie hebt zullen
                                             wij een marktonderzoek uitvoeren.
                                             Als de bevindingen positief zijn
@@ -101,7 +101,7 @@ export const FaqPage = () => {
                                 <div className="">
                                     <details className="group">
                                         <summary className="flex items-center justify-between font-medium list-none cursor-pointer group-open:bg-secondary">
-                                            <span className="p-2 md:text-lg">
+                                            <span className="p-2 xl:text-lg">
                                                 Hoe en waarom wordt de marketing
                                                 voor mij geregeld?
                                             </span>
@@ -122,7 +122,7 @@ export const FaqPage = () => {
                                                 </svg>
                                             </span>
                                         </summary>
-                                        <p className="mt-3 mb-3 text-sm md:text-lg text-neutral-600 group-open:animate-fadeIn">
+                                        <p className="mt-3 mb-3 text-sm xl:font-semibold xl:text-sm text-neutral-600 group-open:animate-fadeIn">
                                             Om onze huisstijl te waarborgen is
                                             het noodzakelijk om alle uitingen op
                                             dezelfde en juiste manier naar
@@ -140,7 +140,7 @@ export const FaqPage = () => {
                                 <div className="">
                                     <details className="group">
                                         <summary className="flex items-center justify-between font-medium list-none cursor-pointer group-open:bg-secondary">
-                                            <span className="p-2 md:text-lg">
+                                            <span className="p-2 xl:text-lg">
                                                 Hoe is de inkoop geregeld?
                                                 Regelt BB Kitchen dat of ikzelf?
                                             </span>
@@ -161,7 +161,7 @@ export const FaqPage = () => {
                                                 </svg>
                                             </span>
                                         </summary>
-                                        <p className="mt-3 mb-3 text-sm md:text-lg text-neutral-600 group-open:animate-fadeIn">
+                                        <p className="mt-3 mb-3 text-sm xl:font-semibold xl:text-sm text-neutral-600 group-open:animate-fadeIn">
                                             Ook met betrekking tot de inkoop
                                             hebben wij goede prijsafspraken.
                                             Hierdoor zijn wij in staat jou de

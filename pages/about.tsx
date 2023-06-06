@@ -8,17 +8,17 @@ export const AboutPage = () => {
             <Header />
             <Hero image="/About.png" />
             <main>
-                <div className="flex flex-col w-full px-6 py-6 md:py-12">
-                    <div className="md:max-w-[1400px] mx-auto">
-                         <h1 className="mb-6 text-2xl md:text-5xl font-bold">Onze start</h1>
-                        <p className="mb-6 md:text-xl">
+                <div className="flex flex-col w-full px-6 py-6 xl:py-12">
+                    <div className="xl:max-w-[1400px] mx-auto">
+                         <h1 className="mb-6 text-2xl font-bold xl:text-5xl">Onze start</h1>
+                        <p className="mb-6 xl:font-semibold xl:text-xl">
                             BB Kitchen is opgericht in 2008 door Sheng Chen.
                             Vanuit zijn horeca-ervaring is hij in 2003 gestart
                             met een cafetaria in Tiel. Een tweede vestiging
                             volgde snel. Zijn ideeën over producten, marketing
                             en gastvrijheid vielen op. BB Kitchen werd een feit.
                         </p>
-                        <p className="mb-6 md:text-xl">
+                        <p className="mb-6 xl:font-semibold xl:text-xl">
                             Vanuit het hoofdkantoor in Tiel ondersteunt en
                             monitort hij samen met zijn team de aangesloten
                             franchisenemers dagelijks. Proactief handelen zorgt
@@ -33,12 +33,12 @@ export const AboutPage = () => {
                         />
                     </div>
                 </div>
-                <div className="flex flex-col w-full px-6 py-6 md:py-12 bg-[#FFF] mt-[-130px]">
-                    <div className="md:max-w-[1400px] mx-auto">
+                <div className="flex flex-col w-full px-6 py-6 xl:py-12 bg-[#FFF] mt-[-130px]">
+                    <div className="xl:max-w-[1400px] mx-auto">
                         <h2 className="mb-6 text-2xl font-bold text-[#000] pt-[100px]">
                             Over BB Kitchen
                         </h2>
-                        <p className="mb-6 text-[#000] md:text-xl">
+                        <p className="mb-6 text-[#000] xl:font-semibold xl:text-xl">
                             Bij BB Kitchen kunnen onze gasten afhalen, laten
                             bezorgen en plaatsnemen in het restaurant. Wij
                             bieden een ruim, gezond, smaakvol en kwalitatief
@@ -51,7 +51,7 @@ export const AboutPage = () => {
                             onderscheiden wij ons met onze beroemde
                             Kitchenburgerlijn.
                         </p>
-                        <p className="mb-6 text-[#000] md:text-xl">
+                        <p className="mb-6 text-[#000] xl:font-semibold xl:text-xl">
                             Daarnaast zijn wij technologisch vooruitstrevend
                             maar als één van de weinige restaurants wordt je bij
                             BB Kitchen nog steeds persoonlijk bediend. Dat
@@ -59,13 +59,13 @@ export const AboutPage = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-col md:flex-row">
-                    <div className="flex flex-col w-full px-6 py-6 md:py-12 bg-primary">
-                        <div className="md:max-w-[700px] mx-auto">
+                <div className="flex flex-col xl:flex-row">
+                    <div className="flex flex-col w-full px-6 py-6 xl:py-12 bg-primary">
+                        <div className="xl:max-w-[700px] mx-auto">
                             <h2 className="mb-4 text-2xl font-bold">
                                 Onze missie
                             </h2>
-                            <p className="mb-6 md:text-xl">
+                            <p className="mb-6 xl:text-xl">
                                 Wij zijn BB Kitchen, een fastservice formule met
                                 een warme en sfeervolle uitstraling, waar wij
                                 inspelen op de veranderende markt door
@@ -73,7 +73,7 @@ export const AboutPage = () => {
                                 persoonlijke bediening waar iedereen zich welkom
                                 voelt.
                             </p>
-                            <p className="mb-6 md:text-xl">
+                            <p className="mb-6 xl:text-xl">
                                 Wij willen onze klanten voorzien van een ruim,
                                 gezond, smaakvol en kwalitatief aanbod aan
                                 gerechten en dranken.
@@ -81,7 +81,7 @@ export const AboutPage = () => {
                             <h2 className="mb-4 text-2xl font-bold">
                                 Onze visie
                             </h2>
-                            <p className="mb-6 md:text-xl">
+                            <p className="mb-6 xl:text-xl">
                                 In 2023 willen wij groeien en meer bekendheid
                                 genereren door 8 vestigingen erbij te openen en
                                 streven naar een landelijke dekking met als
@@ -90,7 +90,7 @@ export const AboutPage = () => {
                                 gepassioneerd ondernemerschap, samenwerking,
                                 vernieuwing en vrijheid.
                             </p>
-                            <p className="mb-6 md:text-xl">
+                            <p className="mb-6 xl:text-xl">
                                 Door optimale ondersteuning, begeleiding en open
                                 te staan voor persoonlijke inbreng willen wij
                                 samen met onze vestigingen groeien en
@@ -99,7 +99,7 @@ export const AboutPage = () => {
                             </p>
                         </div>
                     </div>
-                    <img src="/AboutFooter.png" alt="Icetea" className="w-full md:max-w-[700px]" />
+                    <img src="/AboutFooter.png" alt="Icetea" className="w-full xl:max-w-[700px]" />
                 </div>
             </main>
             <Footer />
