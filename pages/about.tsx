@@ -6,7 +6,7 @@ export const AboutPage = () => {
     return (
         <>
             <Header />
-            <Hero image="/About.png" />
+            <Hero image="/about.png" />
             <main>
                 <div className="flex flex-col w-full px-6 py-6 xl:py-12">
                     <div className="xl:max-w-[1400px] mx-auto">
