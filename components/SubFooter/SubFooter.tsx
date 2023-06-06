@@ -270,7 +270,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                             onChange={handleMessageChange}
                         />
                     </div>
-                    <button className="px-8 py-2 text-xs font-bold bg-secondary rounded text-[#fff]">
+                    <button className="px-8 py-2 md:px-16 md:py-4 text-xs font-bold bg-secondary rounded text-[#fff]">
                         Verstuur
                     </button>
                 </form>
