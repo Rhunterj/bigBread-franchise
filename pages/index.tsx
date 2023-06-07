@@ -43,25 +43,25 @@ export default function Home() {
                                 door;
                             </h2>
                             <ul className="relative z-10 flex justify-between mb-6 xl:mb-12">
-                                <li className="flex-col mb-2 rounded-full bg-primary w-[80px] font-semibold h-[80px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col mb-2 rounded-full bg-primary w-[75px] md:p-2 font-semibold h-[75px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <span className="block text-xl text-center md:text-5xl">
                                         1
                                     </span>
                                     Uitgebreide financiële ondersteuning
                                 </li>
-                                <li className="flex-col mb-2 rounded-full bg-primary w-[80px] font-semibold h-[80px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col mb-2 rounded-full bg-primary w-[75px] md:p-2 font-semibold h-[75px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <span className="block text-xl text-center md:text-5xl">
                                         2
                                     </span>
                                     Ondersteuning in bedrijfsvoering
                                 </li>
-                                <li className="flex-col mb-2 rounded-full bg-primary w-[80px] font-semibold h-[80px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col mb-2 rounded-full bg-primary w-[75px] md:p-2 font-semibold h-[75px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <span className="block text-xl text-center md:text-5xl">
                                         3
                                     </span>
                                     Marketing- technische ondersteuning
                                 </li>
-                                <li className="flex-col mb-2 rounded-full bg-primary w-[80px] font-semibold h-[80px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col mb-2 rounded-full bg-primary w-[75px] md:p-2 font-semibold h-[75px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <span className="block text-xl text-center md:text-5xl">
                                         4
                                     </span>

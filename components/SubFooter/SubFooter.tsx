@@ -200,22 +200,22 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                     <br />
                     de <span className="text-3xl font-bold xl:text-5xl">volgende?</span>
                 </h2>
-                <p className="w-1/2 mb-6 leading-4 text-[10px] font-medium xl:text-xl">
+                <p className="w-[43%] mb-6 leading-4 text-[10px] font-medium xl:text-xl">
                     BB Kitchen heeft momenteel al meer dan 30 vestigingen! We
                     groeien, hopelijk ook met jou erbij!Wij streven naar 100 BB
                     Kitchen vestigingen.
                 </p>
-                <p className="w-1/2 mb-6 leading-4 text-[10px] font-medium xl:text-xl">
+                <p className="w-[43%] mb-6 leading-4 text-[10px] font-medium xl:text-xl">
                     Vraag hieronder het informatiepakket aan en wij nemen zo
                     snel mogelijk contact met je op!
                 </p>
                 <img
-                    className="absolute right-[-10px] top-[120px] z-[-1] w-[270px] md:right-0 md:w-[550px] xl:w-[770px]"
+                    className="absolute right-[-10px] top-[100px] z-[-1] w-[270px] md:right-0 md:w-[550px] xl:w-[770px]"
                     src="/map.svg"
                     alt="kaart van nederland met locaties"
                 />
                 <img
-                    className="absolute left-[45px] top-[300px] md:h-[140px] md:top-[300px] xl:top-[450px] md:left-[100px]"
+                    className="absolute left-[40px] top-[325px] md:h-[140px] md:top-[300px] xl:top-[450px] md:left-[100px]"
                     src="/arrow.svg"
                     alt="arrow"
                 />
