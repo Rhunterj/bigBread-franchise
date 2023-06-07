@@ -15,19 +15,19 @@ export default function Home() {
                          <h1 className="mb-6 text-2xl font-bold xl:text-5xl">
                             Bij BB Kitchen staat jouw succes op nr 1!
                         </h1>
-                        <p className="mb-6 font-semibold xl:text-xl">
+                        <p className="mb-6 xl:text-xl">
                             Wil jij onderdeel zijn van ons bewezen
                             succesformule? Word dan de nieuwe franchisenemer van
                             BB Kitchen!
                         </p>
-                        <p className="mb-6 font-semibold xl:text-xl">
+                        <p className="mb-6 xl:text-xl">
                             Wij denken out of the box en maken een combinatie
                             van soft en hard franchising. Anders dan bij de
                             meeste ketens heb je bij ons veel vrijheden. Zo is
                             er een mogelijkheid tot eigen inbreng om het lokale
                             ondernemerschap te versterken.
                         </p>
-                        <p className="mb-6 font-semibold xl:text-xl">
+                        <p className="mb-6 xl:text-xl">
                             Geniet van de vele voordelen en onderneem zorgeloos.
                         </p>
                         <img

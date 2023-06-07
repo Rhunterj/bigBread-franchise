@@ -200,26 +200,26 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                     <br />
                     de <span className="text-3xl font-bold xl:text-5xl">volgende?</span>
                 </h2>
-                <p className="w-[43%] mb-6 leading-4 text-[10px] font-medium xl:text-xl">
+                <p className="w-[40%] sm:w-[45%] mb-6 leading-4 text-[10px] font-medium xl:text-xl">
                     BB Kitchen heeft momenteel al meer dan 30 vestigingen! We
                     groeien, hopelijk ook met jou erbij!Wij streven naar 100 BB
                     Kitchen vestigingen.
                 </p>
-                <p className="w-[43%] mb-6 leading-4 text-[10px] font-medium xl:text-xl">
+                <p className="w-[40%] sm:w-[45%] mb-6 leading-4 text-[10px] font-medium xl:text-xl">
                     Vraag hieronder het informatiepakket aan en wij nemen zo
                     snel mogelijk contact met je op!
                 </p>
                 <img
-                    className="absolute right-[-10px] top-[100px] z-[-1] w-[270px] md:right-0 md:w-[550px] xl:w-[770px]"
+                    className="absolute right-[-10px] top-[110px] sm:top-[50px] z-[-1] w-[250px] sm:w-[350px] md:right-0 md:w-[550px] xl:w-[770px]"
                     src="/map.svg"
                     alt="kaart van nederland met locaties"
                 />
                 <img
-                    className="absolute left-[40px] top-[325px] md:h-[140px] md:top-[300px] xl:top-[450px] md:left-[100px]"
-                    src="/arrow.svg"
+                    className="w-[50px] mt-[25px] ml-[25px] md:ml-[100px] md:mt-[250px] md:w-[150px]"
+                    src="/arrow.svg" 
                     alt="arrow"
                 />
-                <h3 className="mt-24 mb-6 text-base font-medium md:mt-[500px]">Contactformulier</h3>
+                <h3 className="mt-12 sm:mt-20 mb-6 text-base font-medium md:mt-[50px]">Contactformulier</h3>
                 <form onSubmit={handleFormSubmit} id="contactForm">
                     <div className="flex flex-col mb-6 xl:w-max-[900px] xl:w-[900px]">
                         <input
