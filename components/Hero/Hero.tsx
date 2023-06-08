@@ -18,7 +18,7 @@ export const Hero = ({ image }: HeroProps) => {
                 style={{ objectFit: 'cover', objectPosition: 'center' }}
                 priority
             />
-            <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-[#575757]" />
+            <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-[#000]" />
             <div className="absolute bottom-0 left-0 flex items-center justify-center w-full h-1/2">
                 <div className="flex flex-col items-center justify-center min-w-[50%] h-1/2">
                     <button className="px-8 py-2 mt-4 text-xs font-bold text-white rounded xl:text-lg bg-primary">

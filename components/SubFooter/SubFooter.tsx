@@ -40,7 +40,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                     </h2>
                     <div className="xl:hidden">
                         <img
-                            src="/part1.svg"
+                            src="/part1.png"
                             alt="graphic"
                             className="w-full mt-4 mb-6"
                         />
@@ -63,7 +63,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                             </p>
                         </div>
                         <img
-                            src="/part2.svg"
+                            src="/part2.png"
                             alt="graphic"
                             className="w-full mt-4 mb-6"
                         />
@@ -89,7 +89,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                             </p>
                         </div>
                         <img
-                            src="/part3.svg"
+                            src="/part3.png"
                             alt="graphic"
                             className="w-full mt-4 mb-6"
                         />
@@ -114,7 +114,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                         </div>
                     </div>
                     <div className="hidden xl:flex xl:flex-col">
-                        <img src="/graphicdesktop.svg" alt="graphic" />
+                        <img src="/graphicdesktop.png" alt="graphic" />
                         <hr className="border-b-1 border-[#A3A3A3] opacity-10 my-2" />
                         <div className="flex flex-row justify-around">
                             <div className="w-[30%]">
@@ -151,7 +151,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                             </div>
                         </div>
                         <img
-                            src="/graphicdesktop2.svg"
+                            src="/graphicdesktop2.png"
                             alt="graphic"
                             className="mt-10"
                         />
