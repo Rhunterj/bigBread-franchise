@@ -15,7 +15,7 @@ export const Hero = ({ image }: HeroProps) => {
                 src={image}
                 alt="Hero image"
                 fill
-                style={{ objectFit: 'cover', objectPosition: 'center' }}
+                style={{ objectFit: 'cover', objectPosition: 'top' }}
                 priority
             />
             <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-[#1c1c1c]" />
