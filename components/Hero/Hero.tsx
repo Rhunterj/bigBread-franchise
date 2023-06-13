@@ -7,7 +7,6 @@ interface HeroProps {
 
 export const Hero = ({ image }: HeroProps) => {
     const { asPath } = useRouter()
-    console.log(asPath)
 
     return (
         <div className="relative w-full h-64 border-t-4 border-white bg-gradient-to-t to-black xl:h-[700px]">

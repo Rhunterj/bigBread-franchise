@@ -5,6 +5,14 @@ import { SubFooter } from '@/components/SubFooter/SubFooter'
 import Link from 'next/link'
 
 export default function Home() {
+
+    //calculate days between two dates
+    const date1 = new Date('2023-06-13')
+    const date2 = new Date()
+    const diffTime = Math.abs(date2.getTime() - date1.getTime())
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
+    const burgers = 38100 + (diffDays * 50)
+    
     return (
         <>
             <Header />
@@ -13,7 +21,7 @@ export default function Home() {
                 <div className="flex flex-col w-full">
                     <div className="xl:max-w-[1400px] mx-auto px-6 py-6 xl:py-12">
                          <h1 className="mb-6 text-2xl font-bold xl:text-5xl">
-                            Bij BB Kitchen staat jouw succes op nr 1!
+                            Bij BB Kitchen staat <span className="block sm:inline">jouw succes op nr 1!</span>
                         </h1>
                         <p className="mb-6 xl:text-xl">
                             Wil jij onderdeel zijn van ons bewezen
@@ -43,25 +51,25 @@ export default function Home() {
                                 door;
                             </h2>
                             <ul className="relative z-10 flex justify-between mb-6 xl:mb-12">
-                                <li className="flex-col mb-2 rounded-full bg-primary w-[75px] md:p-2 font-semibold h-[75px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col mb-2 rounded-full bg-primary w-[75px] md:p-2 tracking-tighter h-[75px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <span className="block text-xl text-center md:text-5xl">
                                         1
                                     </span>
                                     Uitgebreide financiële ondersteuning
                                 </li>
-                                <li className="flex-col mb-2 rounded-full bg-primary w-[75px] md:p-2 font-semibold h-[75px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col mb-2 rounded-full bg-primary w-[75px] md:p-2 tracking-tighter h-[75px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <span className="block text-xl text-center md:text-5xl">
                                         2
                                     </span>
                                     Ondersteuning in bedrijfsvoering
                                 </li>
-                                <li className="flex-col mb-2 rounded-full bg-primary w-[75px] md:p-2 font-semibold h-[75px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col mb-2 rounded-full bg-primary w-[75px] md:p-2 tracking-tighter h-[75px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <span className="block text-xl text-center md:text-5xl">
                                         3
                                     </span>
                                     Marketing- technische ondersteuning
                                 </li>
-                                <li className="flex-col mb-2 rounded-full bg-primary w-[75px] md:p-2 font-semibold h-[75px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col mb-2 rounded-full bg-primary w-[75px] md:p-2 tracking-tighter h-[75px] md:flex md:text-sm xl:text-lg md:justify-center md:w-[150px] md:h-[150px] xl:w-[200px] xl:h-[200px] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <span className="block text-xl text-center md:text-5xl">
                                         4
                                     </span>
@@ -98,7 +106,7 @@ export default function Home() {
                             </li>
                             <li className="mb-6 text-[9px] xl:text-xl font-bold flex-col text-center">
                                 <span className="block mb-2 text-2xl font-semibold">
-                                    38.100
+                                    {burgers}
                                 </span>
                                 Burgers gebakken
                             </li>

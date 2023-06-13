@@ -28,7 +28,6 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
 
     const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
-        console.log('Form submitted')
     }
 
     return (
@@ -210,7 +209,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                     snel mogelijk contact met je op!
                 </p>
                 <img
-                    className="absolute right-[-10px] top-[110px] sm:top-[50px] z-[-1] w-[250px] sm:w-[350px] md:right-0 md:w-[550px] xl:w-[770px]"
+                    className="absolute right-[-5px] top-[115px] sm:top-[50px] z-[-1] w-[250px] sm:w-[350px] md:right-0 md:w-[550px] xl:w-[770px]"
                     src="/map.svg"
                     alt="kaart van nederland met locaties"
                 />

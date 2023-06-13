@@ -212,7 +212,7 @@ export const AboutPage = () => {
                             onClick={() => scrollTo('contactForm')}
                             className="w-3/4 xl:w-auto px-8 py-2 xl:py-6 mt-4 text-xs xl:text-2xl font-bold text-primary rounded bg-[#FFF] ml-auto mr-auto xl:text-[#fff] xl:bg-primary xl:rounded-full"
                         >
-                            Contactforumlier
+                            Contactformulier
                         </button>
                     </div>
                 </div>
