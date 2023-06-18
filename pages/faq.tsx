@@ -1,26 +1,20 @@
 import { Footer } from '@/components/Footer/Footer'
 import Header from '@/components/Header/Header'
 import Hero from '@/components/Hero/Hero'
-import SubFooter from '@/components/SubFooter/SubFooter'
 
 export const FaqPage = () => {
-    const scrollTo = (id: string) => {
-        const element = document.getElementById(id)
-        element?.scrollIntoView({ behavior: 'smooth' })
-    }
-
     return (
         <>
             <Header />
-            <Hero image="/Faq.png" />
+            <Hero image="/Faq.jpg" />
             <main>
                 <div className="flex flex-col w-full px-6 py-6 xl:py-12">
-                    <div className="xl:max-w-[1400px] mx-auto w-full">
+                    <div className="xl:max-w-[80%] mx-auto w-full">
                          <h1 className="mb-6 text-2xl font-bold xl:text-5xl">
                             Veel gestelde vragen
                         </h1>
                         <img
-                            src="/FaqContent.png"
+                            src="/FaqContent.jpg"
                             alt="mensen"
                             className="w-full mb-6"
                         />

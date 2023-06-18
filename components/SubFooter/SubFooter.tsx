@@ -1,9 +1,6 @@
 import { useState } from 'react'
-type SubFooterProps = {
-    spacing?: boolean
-}
 
-export const SubFooter = ({ spacing }: SubFooterProps) => {
+export const SubFooter = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [phone, setPhone] = useState('')
@@ -33,8 +30,8 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
     return (
         <>
             <div className="px-6 py-6 xl:py-12 bg-[#fff]">
-                <div className={`flex flex-col w-full xl:max-w-[1400px] mx-auto ${spacing ? 'xl:mt-[125px]' : ''}`}>
-                    <h2 className="mb-6 text-3xl font-bold text-[#363636] xl:text-5xl xl:mb-16 xl:mt-20">
+                <div className={`flex flex-col w-full xl:max-w-[80%] mx-auto`}>
+                    <h2 className="mb-6 text-3xl font-bold text-[#363636] xl:text-[107px] xl:leading-[131px] xl:mb-16 xl:mt-20">
                         Open een BB Kitchen vestiging in 12 stappen!
                     </h2>
                     <div className="xl:hidden">
@@ -113,7 +110,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                         </div>
                     </div>
                     <div className="hidden xl:flex xl:flex-col">
-                        <img src="/graphicdesktop.png" alt="graphic" />
+                        <img src="/graphicdesktop.svg" alt="graphic" />
                         <hr className="border-b-1 border-[#A3A3A3] opacity-10 my-2" />
                         <div className="flex flex-row justify-around">
                             <div className="w-[30%]">
@@ -193,7 +190,7 @@ export const SubFooter = ({ spacing }: SubFooterProps) => {
                     </div>
                 </div>
             </div>
-            <div className="relative flex flex-col w-full px-6 py-6 xl:py-12 overflow-hidden xl:max-w-[1400px] mx-auto">
+            <div className="relative flex flex-col w-full px-6 py-6 xl:py-12 overflow-hidden xl:max-w-[80%] mx-auto">
                 <h2 className="w-[80%] p-0 mb-6 text-xl font-bold xl:text-2xl">
                     Is jouw <span className="text-3xl font-bold xl:text-5xl">locatie</span>
                     <br />
