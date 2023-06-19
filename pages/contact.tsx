@@ -1,6 +1,7 @@
 import { Footer } from '@/components/Footer/Footer'
 import Header from '@/components/Header/Header'
 import Hero from '@/components/Hero/Hero'
+import Link from 'next/link'
 
 export const AboutPage = () => {
     return (
@@ -203,12 +204,12 @@ export const AboutPage = () => {
                             jij nodig hebt, vraag dan snel de brochure aan via
                             het contactformulier.
                         </p>
-                        <a
+                        <Link
                             href="/#contactForm"
                             className="w-3/4 xl:w-1/2 px-8 py-2 xl:py-6 mt-4 xl:mt-12 text-xs xl:text-2xl font-bold text-primary rounded bg-[#FFF] ml-auto mr-auto"
                         >
                             Contactformulier
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </main>
