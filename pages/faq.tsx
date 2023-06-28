@@ -9,8 +9,8 @@ export const FaqPage = () => {
             <Hero image="/Faq.jpg" />
             <main>
                 <div className="flex flex-col w-full px-6 py-6 xl:py-12">
-                    <div className="xl:max-w-[80%] mx-auto w-full">
-                         <h1 className="mb-6 text-2xl font-bold xl:text-5xl">
+                    <div className="xl:max-w-[1100px] mx-auto w-full">
+                         <h1 className="mb-6 text-2xl font-bold xl:text-4xl">
                             Veel gestelde vragen
                         </h1>
                         <img

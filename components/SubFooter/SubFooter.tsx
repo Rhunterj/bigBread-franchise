@@ -30,8 +30,8 @@ export const SubFooter = () => {
     return (
         <>
             <div className="px-6 py-6 xl:py-12 bg-[#fff]">
-                <div className={`flex flex-col w-full xl:max-w-[80%] mx-auto`}>
-                    <h2 className="mb-6 text-3xl font-bold text-[#363636] xl:text-[107px] xl:leading-[131px] xl:mb-16 xl:mt-20">
+                <div className={`flex flex-col w-full xl:max-w-[1100px] mx-auto`}>
+                    <h2 className="mb-6 text-3xl font-bold text-[#363636] xl:text-[max( 1.8rem,1.8vw )] xl:mb-16">
                         Open een BB Kitchen vestiging in 12 stappen!
                     </h2>
                     <div className="xl:hidden">
@@ -190,8 +190,8 @@ export const SubFooter = () => {
                     </div>
                 </div>
             </div>
-            <div className="relative flex flex-col w-full px-6 py-6 xl:py-12 overflow-hidden xl:max-w-[80%] mx-auto">
-                <h2 className="w-[80%] p-0 mb-6 text-xl font-bold xl:text-2xl">
+            <div className="relative flex flex-col w-full px-6 py-6 xl:py-12 overflow-hidden xl:max-w-[1100px] mx-auto">
+                <h2 className="w-[1100px] p-0 mb-6 text-xl font-bold xl:text-[max( 1.8rem,1.8vw )]">
                     Is jouw <span className="text-3xl font-bold xl:text-5xl">locatie</span>
                     <br />
                     de <span className="text-3xl font-bold xl:text-5xl">volgende?</span>
