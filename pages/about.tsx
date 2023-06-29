@@ -40,7 +40,7 @@ export const AboutPage = () => {
                         <h2 className="mb-6 text-2xl sm:text-3xl font-bold text-[#000] pt-[100px] sm:pt-[50px]">
                             Over BB Kitchen
                         </h2>
-                        <p className="mb-6 text-[#000] sm:font-semibold sm:text-lg">
+                        <p className="mb-6 text-[#000] sm:text-lg">
                             Bij BB Kitchen kunnen onze gasten afhalen, laten
                             bezorgen en plaatsnemen in het restaurant. Wij
                             bieden een ruim, gezond, smaakvol en kwalitatief
@@ -53,7 +53,7 @@ export const AboutPage = () => {
                             onderscheiden wij ons met onze beroemde
                             Kitchenburgerlijn.
                         </p>
-                        <p className="mb-6 text-[#000] sm:font-semibold sm:text-lg">
+                        <p className="mb-6 text-[#000] sm:text-lg">
                             Daarnaast zijn wij technologisch vooruitstrevend
                             maar als één van de weinige restaurants wordt je bij
                             BB Kitchen nog steeds persoonlijk bediend. Dat

@@ -215,7 +215,7 @@ export const SubFooter = () => {
                     src="/arrow.svg" 
                     alt="arrow"
                 />
-                <h3 className="mt-12 sm:mt-20 mb-6 text-base font-medium md:mt-[50px]">Contactformulier</h3>
+                <h3 className="mt-12 sm:mt-20 mb-6 text-base font-medium md:mt-[100px] sm:text-xl">Contactformulier</h3>
                 <form onSubmit={handleFormSubmit} id="contactForm">
                     <div className="flex flex-col mb-6 xl:w-max-[900px] xl:w-[900px]">
                         <input
@@ -266,7 +266,7 @@ export const SubFooter = () => {
                             onChange={handleMessageChange}
                         />
                     </div>
-                    <button className="px-8 py-2 xl:px-16 xl:py-4 text-xs font-bold bg-secondary rounded text-[#fff]">
+                    <button className="px-8 py-2 xl:px-16 xl:py-4 text-xs sm:text-lg font-bold bg-secondary rounded text-[#fff]">
                         Verstuur
                     </button>
                 </form>

@@ -20,8 +20,8 @@ export default function Home() {
                 <div className="flex flex-col w-full">
                     <div className="sm:max-w-[1100px] mx-auto px-6 py-6 sm:py-12">
                         <h1 className="mb-6 text-2xl font-bold sm:text-4xl">
-                            Bij BB Kitchen staat{' '}
-                            <span className="block">jouw succes op nr 1!</span>
+                            Bij BB Kitchen staat jouw {' '}
+                            <span className="block">succes op nr 1!</span>
                         </h1>
                         <p className="mb-6 sm:text-lg">
                             Wil jij onderdeel zijn van ons bewezen
@@ -51,7 +51,7 @@ export default function Home() {
                                 door;
                             </h2>
                             <ul className="relative z-10 flex justify-between mb-6 sm:mb-12">
-                                <li className="flex-col relative mb-2 rounded-full bg-primary sm:justify-center tracking-tighter sm:flex sm:text-sm lg:sm-text-lg font-bold w-[23%] pb-[23%] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col relative mb-2 rounded-full bg-primary sm:justify-center tracking-tighter sm:flex sm:text-sm lg:sm-text-lg w-[23%] pb-[23%] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <div className="absolute top-1/2 translate-y-[-57%] w-full left-0">
                                         <span className="block text-xl text-center sm:text-3xl lg:text-6xl sm:mt-[-10px] lg:mt-[-40px]">
                                             1
@@ -59,15 +59,15 @@ export default function Home() {
                                         <span className="block leading-3 sm:leading-4">Uitgebreide financiële ondersteuning</span>
                                     </div>
                                 </li>
-                                <li className="flex-col relative mb-2 rounded-full bg-primary sm:justify-center tracking-tighter sm:flex sm:text-sm lg:sm-text-lg font-bold w-[23%] pb-[23%] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col relative mb-2 rounded-full bg-primary sm:justify-center tracking-tighter sm:flex sm:text-sm lg:sm-text-lg w-[23%] pb-[23%] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <div className="absolute top-1/2 translate-y-[-57%] w-full left-0">
                                         <span className="block text-xl text-center sm:text-3xl lg:text-6xl sm:mt-[-10px] lg:mt-[-40px]">
                                             2
                                         </span>
-                                        <span className="block leading-3 sm:leading-4">Ondersteuning in bedrijfsvoering</span>
+                                        <span className="block leading-3 sm:leading-4">Ondersteuning in <br />bedrijfsvoering</span>
                                     </div>
                                 </li>
-                                <li className="flex-col relative mb-2 rounded-full bg-primary sm:justify-center tracking-tighter sm:flex sm:text-sm lg:sm-text-lg font-bold w-[23%] pb-[23%] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col relative mb-2 rounded-full bg-primary sm:justify-center tracking-tighter sm:flex sm:text-sm lg:sm-text-lg w-[23%] pb-[23%] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <div className="absolute top-1/2 translate-y-[-57%] w-full left-0">
                                         <span className="block text-xl text-center sm:text-3xl lg:text-6xl sm:mt-[-10px] lg:mt-[-40px]">
                                             3
@@ -75,12 +75,12 @@ export default function Home() {
                                         <span className="block leading-3 sm:leading-4">Marketing- technische ondersteuning</span>
                                     </div>
                                 </li>
-                                <li className="flex-col relative mb-2 rounded-full bg-primary sm:justify-center tracking-tighter sm:flex sm:text-sm lg:sm-text-lg font-bold w-[23%] pb-[23%] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
+                                <li className="flex-col relative mb-2 rounded-full bg-primary sm:justify-center tracking-tighter sm:flex sm:text-sm lg:sm-text-lg w-[23%] pb-[23%] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
                                     <div className="absolute top-1/2 translate-y-[-57%] w-full left-0">
                                         <span className="block text-xl text-center sm:text-3xl lg:text-6xl sm:mt-[-10px] lg:mt-[-40px]">
                                             4
                                         </span>
-                                        <span className="block leading-3 sm:leading-4">Mogelijkheid tot eigen inbreng</span>
+                                        <span className="block leading-3 sm:leading-4">Mogelijkheid tot eigen <br />inbreng</span>
                                     </div>
                                 </li>
                             </ul>
@@ -88,8 +88,8 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="w-full bg-secondary relative mt-[-95px] sm:mt-[-200px] xl:mt-[-250px] h-[126px] sm:h-[300px] xl:h-[400px] py-16 flex justify-center">
-                    <button className="px-8 sm:px-12 py-2 mt-4 text-s sm:text-2xl font-bold bg-[#FFF] rounded text-primary absolute bottom-[33px] sm:bottom-[100px]">
+                <div className="w-full bg-secondary relative mt-[-95px] sm:mt-[-200px] xl:mt-[-250px] h-[126px] sm:h-[300px] py-16 flex justify-center">
+                    <button className="px-8 sm:px-12 py-2 mt-4 text-s sm:text-2xl font-bold bg-[#FFF] rounded text-primary absolute bottom-[33px] sm:bottom-[100px] xl:bottom-[50px]">
                         <Link href="/about">Franchisenemer worden?</Link>
                     </button>
                 </div>

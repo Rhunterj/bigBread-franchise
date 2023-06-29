@@ -46,10 +46,10 @@ export const AboutPage = () => {
                 </div>
                 <div className="flex flex-col w-full px-6 py-6 sm:py-12 bg-primary mt-[-130px] sm:mt-[-200px]">
                     <div className="sm:max-w-[1100px] sm:w-full mx-auto">
-                        <div className='hidden sm:block w-full h-1 border-t-2 sm:mt-[200px]'></div>
+                        <div className='hidden sm:block w-full h-1 border-t-2 sm:mt-[150px]'></div>
                         <div className="flex flex-col sm:flex-row">
                             <div className="lg:w-1/2">
-                                <h2 className="mb-2 text-2xl font-bold sm:text-3xl pt-[100px] sm:pl-5">
+                                <h2 className="mb-2 text-2xl font-bold sm:text-3xl pt-[50px] sm:pl-5">
                                     Wij bieden
                                 </h2>
                                 <ul className="mb-6">
@@ -206,7 +206,7 @@ export const AboutPage = () => {
                         </p>
                         <Link
                             href="/#contactForm"
-                            className="w-3/4 sm:w-1/2 px-8 py-2 sm:py-6 mt-4 sm:mt-12 text-xs sm:text-xl font-bold text-primary rounded bg-[#FFF] ml-auto mr-auto text-center"
+                            className="w-3/4 sm:w-1/2 px-8 py-2 sm:py-6 mt-4 sm:mt-12 text-xs sm:text-2xl font-bold text-primary rounded bg-[#FFF] ml-auto mr-auto text-center"
                         >
                             Contactformulier
                         </Link>

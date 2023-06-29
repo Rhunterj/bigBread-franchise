@@ -44,7 +44,7 @@ export const FaqPage = () => {
                                                 </svg>
                                             </span>
                                         </summary>
-                                        <p className="mt-3 mb-3 text-sm sm:font-semibold sm:text-sm text-neutral-600 group-open:animate-fadeIn">
+                                        <p className="mt-3 mb-3 text-sm sm:text-sm text-neutral-600 group-open:animate-fadeIn">
                                             Je dient ongeveer 30% eigen geld in
                                             te brengen van de totale
                                             investering. Deze ligt tussen de €
@@ -81,7 +81,7 @@ export const FaqPage = () => {
                                                 </svg>
                                             </span>
                                         </summary>
-                                        <p className="mt-3 mb-3 text-sm sm:font-semibold sm:text-sm text-neutral-600 group-open:animate-fadeIn">
+                                        <p className="mt-3 mb-3 text-sm sm:text-sm text-neutral-600 group-open:animate-fadeIn">
                                             Als je een eigen locatie hebt zullen
                                             wij een marktonderzoek uitvoeren.
                                             Als de bevindingen positief zijn
@@ -116,7 +116,7 @@ export const FaqPage = () => {
                                                 </svg>
                                             </span>
                                         </summary>
-                                        <p className="mt-3 mb-3 text-sm sm:font-semibold sm:text-sm text-neutral-600 group-open:animate-fadeIn">
+                                        <p className="mt-3 mb-3 text-sm sm:text-sm text-neutral-600 group-open:animate-fadeIn">
                                             Om onze huisstijl te waarborgen is
                                             het noodzakelijk om alle uitingen op
                                             dezelfde en juiste manier naar
@@ -155,7 +155,7 @@ export const FaqPage = () => {
                                                 </svg>
                                             </span>
                                         </summary>
-                                        <p className="mt-3 mb-3 text-sm sm:font-semibold sm:text-sm text-neutral-600 group-open:animate-fadeIn">
+                                        <p className="mt-3 mb-3 text-sm sm:text-sm text-neutral-600 group-open:animate-fadeIn">
                                             Ook met betrekking tot de inkoop
                                             hebben wij goede prijsafspraken.
                                             Hierdoor zijn wij in staat jou de
