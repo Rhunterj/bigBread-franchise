@@ -3,7 +3,7 @@ import { SendEmailCommand } from "@aws-sdk/client-ses"
 const createSendEmailCommand = (body: string) => {
   return new SendEmailCommand({
        Destination: {
-           ToAddresses: ["robbin_jagt+bigbread@hotmail.com"],
+           ToAddresses: ["info@bigbread.nl"],
        },
        Message: {
            Body: {
