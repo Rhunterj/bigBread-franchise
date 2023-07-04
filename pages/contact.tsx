@@ -7,7 +7,7 @@ export const AboutPage = () => {
     return (
         <>
             <Header />
-            <Hero image="/Start.jpg" />
+            <Hero image="/Start.jpg" position="center" />
             <main className="sm:mb-[125px]">
                 <div className="flex flex-col w-full px-6 py-6 sm:py-12">
                     <div className="sm:max-w-[1100px] mx-auto">

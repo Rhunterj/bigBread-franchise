@@ -6,7 +6,7 @@ export const FaqPage = () => {
     return (
         <>
             <Header />
-            <Hero image="/Faq.jpg" />
+            <Hero image="/Faq.jpg" position="top"/>
             <main>
                 <div className="flex flex-col w-full px-6 py-6 sm:py-12">
                     <div className="sm:max-w-[1100px] mx-auto w-full">

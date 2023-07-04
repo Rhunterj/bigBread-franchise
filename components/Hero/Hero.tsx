@@ -2,17 +2,18 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 interface HeroProps {
-    image: string
+    image: string,
+    position: string
 }
 
-export const Hero = ({ image }: HeroProps) => {
+export const Hero = ({ image, position }: HeroProps) => {
     return (
         <div className="relative w-full h-64 border-t-4 border-white bg-gradient-to-t to-black sm:h-[700px]">
             <Image
                 src={image}
                 alt="Hero image"
                 fill
-                style={{ objectFit: 'cover', objectPosition: 'top' }}
+                style={{ objectFit: 'cover', objectPosition: position }}
                 priority
             />
             <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-[#1c1c1c]" />

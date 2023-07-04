@@ -15,7 +15,7 @@ export default function Home() {
     return (
         <>
             <Header />
-            <Hero image="/Home.jpg" />
+            <Hero image="/Home.jpg" position="center" />
             <main className="flex flex-col content-center">
                 <div className="flex flex-col w-full">
                     <div className="sm:max-w-[1100px] mx-auto px-6 py-6 sm:py-12">
