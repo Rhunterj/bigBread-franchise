@@ -22,7 +22,6 @@ export default async function handler(
     }
 
     const sendEmailCommand = createSendEmailCommand(
-        req.body.toAddress,
         req.body.body
     )
 
