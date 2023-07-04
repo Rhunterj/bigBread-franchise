@@ -20,7 +20,7 @@ export const Hero = ({ image, position }: HeroProps) => {
             <div className="absolute bottom-0 left-0 flex items-center justify-center w-full h-1/2">
                 <div className="flex flex-col items-center justify-center min-w-[50%] h-1/2">
                     <Link
-                        className="px-8 py-2 mt-4 text-xs font-bold text-white rounded-[10px] sm:text-xl bg-primary sm:py-4"
+                        className="px-8 py-2 mt-4 text-xs font-bold text-[#FFF] rounded-[10px] sm:text-xl bg-primary sm:py-4"
                         href="/#contactForm"
                     >
                         Vraag de brochure aan{' '}
