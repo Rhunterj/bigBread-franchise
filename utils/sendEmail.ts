@@ -21,7 +21,7 @@ const createSendEmailCommand = (toAddress: string, body: string) => {
                Data: 'BigBread franchise enquiry',
            },
        },
-       Source: "robbin_jagt+bigbread@hotmail.com",
+       Source: "info@franchisebijbbkitchen.nl",
    })
 }
 

@@ -10,9 +10,9 @@ export const Footer = () => {
                     <div className="flex flex-col w-[45%]">
                         <a
                             className="text-[14px] sm:text-lg sm:leading-5 mb-2 sm:mb-10"
-                            href="mailto:info@bbkitchen.nl"
+                            href="mailto:info@bigbread.nl"
                         >
-                            info@bbkitchen.nl
+                            info@bigbread.nl
                         </a>
                         <Link className="text-[14px] sm:text-lg sm:leading-5 mb-2 sm:mb-10" href="/faq">
                             Veelgestelde vragen
@@ -31,7 +31,7 @@ export const Footer = () => {
                             </h4>
                             <div className="flex">
                                 <input
-                                    className="w-full px-2 py-1 mt-2 text-xs text-black bg-white rounded-l sm:py-4"
+                                    className="w-full px-2 py-1 mt-2 text-xs text-[#000] bg-white rounded-l sm:py-4"
                                     type="text"
                                     placeholder="naam@email.nl"
                                 />

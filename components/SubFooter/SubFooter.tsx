@@ -229,7 +229,7 @@ export const SubFooter = () => {
                     </span>
                 </h2>
                 <p className="w-[40%] sm:w-[45%] mb-6 leading-4 text-[10px] font-medium xl:text-xl">
-                    BB Kitchen heeft momenteel al meer dan 30 vestigingen! We
+                    BB Kitchen heeft momenteel al meer dan 32 vestigingen! We
                     groeien, hopelijk ook met jou erbij!Wij streven naar 100 BB
                     Kitchen vestigingen.
                 </p>
@@ -300,7 +300,7 @@ export const SubFooter = () => {
                             onChange={handleMessageChange}
                         />
                     </div>
-                    <button disabled className="px-8 py-2 disabled xl:px-16 xl:py-4 text-xs sm:text-lg font-bold bg-[#6b7280] rounded text-[#fff]">
+                    <button className="px-8 py-2 disabled xl:px-16 xl:py-4 text-xs sm:text-lg font-bold bg-secondary rounded text-[#fff]">
                         {succes ? 'Email verstuurd' : 'Verstuur'}
                     </button>
                 </form>

@@ -10,7 +10,7 @@ export default function Home() {
     const date2 = new Date()
     const diffTime = Math.abs(date2.getTime() - date1.getTime())
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
-    const burgers = 38100 + diffDays * 50
+    const burgers = 438100 + diffDays * 50
 
     return (
         <>
@@ -20,13 +20,13 @@ export default function Home() {
                 <div className="flex flex-col w-full">
                     <div className="sm:max-w-[1100px] mx-auto px-6 py-6 sm:py-12">
                         <h1 className="mb-6 text-2xl font-bold sm:text-4xl">
-                            Bij BB Kitchen staat jouw {' '}
+                            Bij BB Kitchen staat jouw{' '}
                             <span className="block">succes op nr 1!</span>
                         </h1>
                         <p className="mb-6 sm:text-lg">
-                            Wil jij onderdeel zijn van ons bewezen
-                            succesformule? Word dan de nieuwe franchisenemer van
-                            BB Kitchen!
+                            Wil jij onderdeel zijn van onze bewezen
+                            succesformule? <br />
+                            Word dan de nieuwe franchisenemer van BB Kitchen!
                         </p>
                         <p className="mb-6 sm:text-lg">
                             Wij denken out of the box en maken een combinatie
@@ -56,7 +56,9 @@ export default function Home() {
                                         <span className="block text-xl text-center sm:text-3xl lg:text-6xl sm:mt-[-10px] lg:mt-[-40px]">
                                             1
                                         </span>
-                                        <span className="block leading-3 sm:leading-4">Uitgebreide financiële ondersteuning</span>
+                                        <span className="block leading-3 sm:leading-4">
+                                            Uitgebreide financiële mogelijkheden
+                                        </span>
                                     </div>
                                 </li>
                                 <li className="flex-col relative mb-2 rounded-full bg-primary sm:justify-center tracking-tighter sm:flex sm:text-sm lg:sm-text-lg w-[23%] pb-[23%] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
@@ -64,7 +66,9 @@ export default function Home() {
                                         <span className="block text-xl text-center sm:text-3xl lg:text-6xl sm:mt-[-10px] lg:mt-[-40px]">
                                             2
                                         </span>
-                                        <span className="block leading-3 sm:leading-4">Ondersteuning in <br />bedrijfsvoering</span>
+                                        <span className="block leading-3 sm:leading-4">
+                                            Operationele bedrijfsvoering
+                                        </span>
                                     </div>
                                 </li>
                                 <li className="flex-col relative mb-2 rounded-full bg-primary sm:justify-center tracking-tighter sm:flex sm:text-sm lg:sm-text-lg w-[23%] pb-[23%] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
@@ -72,7 +76,9 @@ export default function Home() {
                                         <span className="block text-xl text-center sm:text-3xl lg:text-6xl sm:mt-[-10px] lg:mt-[-40px]">
                                             3
                                         </span>
-                                        <span className="block leading-3 sm:leading-4">Marketing- technische ondersteuning</span>
+                                        <span className="block leading-3 sm:leading-4">
+                                            Marketing- technische ondersteuning
+                                        </span>
                                     </div>
                                 </li>
                                 <li className="flex-col relative mb-2 rounded-full bg-primary sm:justify-center tracking-tighter sm:flex sm:text-sm lg:sm-text-lg w-[23%] pb-[23%] text-center text-[8px] shadow-[inset_4px_4px_4px_0px_rgba(0,0,0,0.16)]">
@@ -80,7 +86,9 @@ export default function Home() {
                                         <span className="block text-xl text-center sm:text-3xl lg:text-6xl sm:mt-[-10px] lg:mt-[-40px]">
                                             4
                                         </span>
-                                        <span className="block leading-3 sm:leading-4">Mogelijkheid tot eigen <br />inbreng</span>
+                                        <span className="block leading-3 sm:leading-4">
+                                            Uniek assortiment
+                                        </span>
                                     </div>
                                 </li>
                             </ul>
@@ -102,7 +110,7 @@ export default function Home() {
                         <ul className="flex justify-between">
                             <li className="mb-6 text-[9px] sm:text-sm lg:text-xl font-bold flex-col text-center">
                                 <span className="block mb-2 text-2xl font-semibold sm:text-xl lg:text-5xl">
-                                    30
+                                    32
                                 </span>
                                 Vestigingen
                             </li>

@@ -45,11 +45,11 @@ export const AboutPage = () => {
                     </div>
                 </div>
                 <div className="flex flex-col w-full px-6 py-6 sm:py-12 bg-primary mt-[-130px] sm:mt-[-200px]">
-                    <div className="sm:max-w-[1100px] sm:w-full mx-auto">
+                    <div className="sm:max-w-[1100px] sm:w-full sm:mx-auto">
                         <div className='hidden sm:block w-full h-1 border-t-2 sm:mt-[150px]'></div>
                         <div className="flex flex-col sm:flex-row">
                             <div className="lg:w-1/2">
-                                <h2 className="mb-2 text-2xl font-bold sm:text-3xl pt-[50px] sm:pl-5">
+                                <h2 className="mb-2 text-2xl font-bold sm:text-3xl pt-[75px] sm:pt-[50px] sm:pl-5">
                                     Wij bieden
                                 </h2>
                                 <ul className="mb-6">
@@ -106,7 +106,7 @@ export const AboutPage = () => {
                                 </ul>
                             </div>
                             <div>
-                                <h2 className="mb-2 text-2xl font-bold sm:text-3xl pt-[100px] sm:pl-5">
+                                <h2 className="mb-2 text-2xl font-bold sm:text-3xl sm:pt-[50px] sm:pl-5">
                                     Wij vragen
                                 </h2>
                                 <ul className="mb-6">
@@ -153,7 +153,7 @@ export const AboutPage = () => {
                                 <span className="w-1/2 mr-4 sm:w-[350px]">
                                     Entreegeld
                                 </span>
-                                <span> €10.000 (eenmalig)</span>
+                                <span> € 10.000 (eenmalig)</span>
                             </p>
                             <p className="flex text-[12px] sm:text-lg sm:mb-4">
                                 <span className="w-1/2 mr-4 sm:w-[350px]">

@@ -6,11 +6,11 @@ export const FaqPage = () => {
     return (
         <>
             <Header />
-            <Hero image="/Faq.jpg" position="top"/>
+            <Hero image="/Faq.jpg" position="top" />
             <main>
                 <div className="flex flex-col w-full px-6 py-6 sm:py-12">
                     <div className="sm:max-w-[1100px] mx-auto w-full">
-                         <h1 className="mb-6 text-2xl font-bold sm:text-4xl">
+                        <h1 className="mb-6 text-2xl font-bold sm:text-4xl">
                             Veel gestelde vragen
                         </h1>
                         <img
@@ -31,11 +31,11 @@ export const FaqPage = () => {
                                                 <svg
                                                     fill="none"
                                                     height="24"
-                                                    shape-rendering="geometricPrecision"
+                                                    shapeRendering="geometricPrecision"
                                                     stroke="#ACC90B"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                    stroke-width="1.5"
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    strokeWidth="1.5"
                                                     viewBox="0 0 24 24"
                                                     width="24"
                                                     className="group-open:stroke-[#fff]"
@@ -65,14 +65,14 @@ export const FaqPage = () => {
                                                 terecht?
                                             </span>
                                             <span className="transition group-open:rotate-180">
-                                                 <svg
+                                                <svg
                                                     fill="none"
                                                     height="24"
-                                                    shape-rendering="geometricPrecision"
+                                                    shapeRendering="geometricPrecision"
                                                     stroke="#ACC90B"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                    stroke-width="1.5"
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    strokeWidth="1.5"
                                                     viewBox="0 0 24 24"
                                                     width="24"
                                                     className="group-open:stroke-[#fff]"
@@ -100,14 +100,14 @@ export const FaqPage = () => {
                                                 voor mij geregeld?
                                             </span>
                                             <span className="transition group-open:rotate-180">
-                                                 <svg
+                                                <svg
                                                     fill="none"
                                                     height="24"
-                                                    shape-rendering="geometricPrecision"
+                                                    shapeRendering="geometricPrecision"
                                                     stroke="#ACC90B"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                    stroke-width="1.5"
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    strokeWidth="1.5"
                                                     viewBox="0 0 24 24"
                                                     width="24"
                                                     className="group-open:stroke-[#fff]"
@@ -139,14 +139,14 @@ export const FaqPage = () => {
                                                 Regelt BB Kitchen dat of ikzelf?
                                             </span>
                                             <span className="transition group-open:rotate-180">
-                                                 <svg
+                                                <svg
                                                     fill="none"
                                                     height="24"
-                                                    shape-rendering="geometricPrecision"
+                                                    shapeRendering="geometricPrecision"
                                                     stroke="#ACC90B"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                    stroke-width="1.5"
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    strokeWidth="1.5"
                                                     viewBox="0 0 24 24"
                                                     width="24"
                                                     className="group-open:stroke-[#fff]"
@@ -158,8 +158,8 @@ export const FaqPage = () => {
                                         <p className="mt-3 mb-3 text-sm sm:text-sm text-neutral-600 group-open:animate-fadeIn">
                                             Ook met betrekking tot de inkoop
                                             hebben wij goede prijsafspraken.
-                                            Hierdoor zijn wij in staat jou de
-                                            laagste prijsgarantie te bieden. Wij
+                                            Hierdoor zijn wij in staat jou een
+                                            goede prijsgarantie te bieden. Wij
                                             helpen jou met de eerste paar
                                             bestelling totdat je genoeg
                                             zelfvertrouwen hebt om dit zelf te

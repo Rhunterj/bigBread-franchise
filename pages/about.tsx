@@ -17,15 +17,15 @@ export const AboutPage = () => {
                             BB Kitchen is opgericht in 2008 door Sheng Chen.
                             Vanuit zijn horeca-ervaring is hij in 2003 gestart
                             met een cafetaria in Tiel. Een tweede vestiging
-                            volgde snel. Zijn ideeën over producten, marketing
-                            en gastvrijheid vielen op. BB Kitchen werd een feit.
+                            volgde al snel. Zijn ideeën over producten, marketing
+                            en gastvrijheid vielen op, BB Kitchen werd een feit.
                         </p>
                         <p className="mb-6 sm:text-lg">
                             Vanuit het hoofdkantoor in Tiel ondersteunt en
                             monitort hij samen met zijn team de aangesloten
                             franchisenemers dagelijks. Proactief handelen zorgt
                             ervoor dat ook zij succesvol kunnen zijn. Kennis
-                            delen maakt je samen sterk. En dat is waar onze
+                            delen maakt je samen sterk en dat is waar onze
                             formule om draait.
                         </p>
                         <img
