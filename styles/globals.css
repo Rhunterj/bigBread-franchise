@@ -23,6 +23,7 @@ body {
   color: rgb(var(--foreground-rgb));
   background: #1c1c1c;
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
 

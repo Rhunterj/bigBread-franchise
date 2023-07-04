@@ -6,6 +6,7 @@ export const SubFooter = () => {
     const [phone, setPhone] = useState('')
     const [message, setMessage] = useState('')
     const [address, setAddress] = useState('')
+    const [succes, setSuccess] = useState(false)
 
     const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         setName(e.target.value)
@@ -23,14 +24,39 @@ export const SubFooter = () => {
         setAddress(e.target.value)
     }
 
-    const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
+        const sendEmail = async () => {
+            const body = `
+                Naam: ${name},
+                email: ${email},
+                TelefoonNummer: ${phone},
+                Adres: ${address},
+                Bericht: ${message},
+            `
+
+            const response = await fetch('/api/send-email', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ body, toAddress: email }),
+            })
+
+            return response.json()
+        }
+
+        sendEmail().then((res) => {
+            if (res.sent === "ok") {
+                setSuccess(true)
+            }
+        })
     }
 
     return (
         <>
             <div className="px-6 py-6 xl:py-12 bg-[#fff]">
-                <div className={`flex flex-col w-full xl:max-w-[1100px] mx-auto`}>
+                <div
+                    className={`flex flex-col w-full xl:max-w-[1100px] mx-auto`}
+                >
                     <h2 className="mb-6 text-3xl font-bold text-[#363636] xl:text-[max( 1.8rem,1.8vw )] xl:mb-16">
                         Open een BB Kitchen vestiging in 12 stappen!
                     </h2>
@@ -192,9 +218,15 @@ export const SubFooter = () => {
             </div>
             <div className="relative flex flex-col w-full px-6 py-6 xl:py-12 overflow-hidden xl:max-w-[1100px] mx-auto">
                 <h2 className="w-[1100px] p-0 mb-6 text-xl font-bold xl:text-[max( 1.8rem,1.8vw )]">
-                    Is jouw <span className="text-3xl font-bold xl:text-5xl">locatie</span>
+                    Is jouw{' '}
+                    <span className="text-3xl font-bold xl:text-5xl">
+                        locatie
+                    </span>
                     <br />
-                    de <span className="text-3xl font-bold xl:text-5xl">volgende?</span>
+                    de{' '}
+                    <span className="text-3xl font-bold xl:text-5xl">
+                        volgende?
+                    </span>
                 </h2>
                 <p className="w-[40%] sm:w-[45%] mb-6 leading-4 text-[10px] font-medium xl:text-xl">
                     BB Kitchen heeft momenteel al meer dan 30 vestigingen! We
@@ -212,10 +244,12 @@ export const SubFooter = () => {
                 />
                 <img
                     className="w-[50px] mt-[25px] ml-[25px] md:ml-[100px] md:mt-[250px] md:w-[150px]"
-                    src="/arrow.svg" 
+                    src="/arrow.svg"
                     alt="arrow"
                 />
-                <h3 className="mt-12 sm:mt-20 mb-6 text-base font-medium md:mt-[100px] sm:text-xl">Contactformulier</h3>
+                <h3 className="mt-12 sm:mt-20 mb-6 text-base font-medium md:mt-[100px] sm:text-xl">
+                    Contactformulier
+                </h3>
                 <form onSubmit={handleFormSubmit} id="contactForm">
                     <div className="flex flex-col mb-6 xl:w-max-[900px] xl:w-[900px]">
                         <input
@@ -266,8 +300,8 @@ export const SubFooter = () => {
                             onChange={handleMessageChange}
                         />
                     </div>
-                    <button className="px-8 py-2 xl:px-16 xl:py-4 text-xs sm:text-lg font-bold bg-secondary rounded text-[#fff]">
-                        Verstuur
+                    <button disabled className="px-8 py-2 disabled xl:px-16 xl:py-4 text-xs sm:text-lg font-bold bg-[#6b7280] rounded text-[#fff]">
+                        {succes ? 'Email verstuurd' : 'Verstuur'}
                     </button>
                 </form>
             </div>

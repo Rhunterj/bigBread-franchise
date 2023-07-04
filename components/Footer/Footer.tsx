@@ -17,10 +17,10 @@ export const Footer = () => {
                         <Link className="text-[14px] sm:text-lg sm:leading-5 mb-2 sm:mb-10" href="/faq">
                             Veelgestelde vragen
                         </Link>
-                        <Link className="text-[14px] sm:text-lg sm:leading-5 mb-2 sm:mb-10" href="/disclaimer">
+                        <Link className="text-[14px] sm:text-lg sm:leading-5 mb-2 sm:mb-10" target="_blank" href="/disclaimer.pdf">
                             Disclaimer
                         </Link>
-                        <Link className="text-[14px] sm:text-lg sm:leading-5" href="/privacy">
+                        <Link className="text-[14px] sm:text-lg sm:leading-5" target="_blank" href="/privacy.pdf">
                             Privacy
                         </Link>
                     </div>
@@ -44,7 +44,7 @@ export const Footer = () => {
                             <p className="mr-4 sm:text-lg sm:font-semibold">Volg ons op</p>
                             <div className="flex grow-[2]">
                                 <a
-                                    href="https://www.facebook.com/BBKitchenNL/"
+                                    href="https://www.facebook.com/bbknederland"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="mr-[5px]"
@@ -56,7 +56,7 @@ export const Footer = () => {
                                     />
                                 </a>
                                 <a
-                                    href="https://www.instagram.com/bbkitchen.nl/"
+                                    href="https://www.instagram.com/bigbreadkitchen/"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="mr-[5px]"
@@ -68,7 +68,7 @@ export const Footer = () => {
                                     />
                                 </a>
                                 <a
-                                    href="https://www.linkedin.com/bbkitchen.nl/"
+                                    href="https://www.linkedin.com/in/big-bread-groep-21045b117/"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="mr-[5px]"
@@ -80,7 +80,7 @@ export const Footer = () => {
                                     />
                                 </a>
                                 <a
-                                    href="https://www.tiktok.com/bbkitchen.nl/"
+                                    href="https://www.tiktok.com/@bigbreadkitchen"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
