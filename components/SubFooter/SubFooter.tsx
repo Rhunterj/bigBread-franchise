@@ -45,7 +45,7 @@ export const SubFooter = () => {
         }
 
         sendEmail().then((res) => {
-            if (res.sent === "ok") {
+            if (res.sent === 'ok') {
                 setSuccess(true)
             }
         })
@@ -103,11 +103,12 @@ export const SubFooter = () => {
                         </div>
                         <div className="flex flex-row w-full py-2 text-black">
                             <p className="text-[#161615] text-xs w-1/2 mr-4 font-medium">
-                                7. Evaluatie en geheimhoudingsverklaring.
+                                7. Indien er interesse van beide kanten is wordt
+                                de intentieovereenkomst gekeken.
                             </p>
                             <p className="text-[#161615] text-xs w-1/2 font-medium">
-                                8. Rondleiding en proeven van producten in een
-                                BB Kitchen vestiging.
+                                8. We gaan kijken of er een locatie beschikbaar
+                                is, zo net gaan we direct op zoek.
                             </p>
                         </div>
                         <img
@@ -117,21 +118,24 @@ export const SubFooter = () => {
                         />
                         <div className="flex flex-row w-full py-2 text-black">
                             <p className="text-[#161615] text-xs w-1/2 mr-4 font-medium">
-                                9. Afspraak met werving en selectie en
-                                franchisegever.
+                                9. Tweede afspraak met werving en selectie en
+                                franchisegever, bij voorkeur op een eventuele
+                                locatie
                             </p>
                             <p className="text-[#161615] text-xs w-1/2 font-medium">
-                                10. Tekenen voorovereenkomst, tevens
-                                intentieverklaring.
+                                10. De koop, huur en franchiseovereenkomst
+                                worden getekend waarna de financierings-
+                                aanvraag ingediend wordt.
                             </p>
                         </div>
                         <div className="flex flex-row w-full py-2 text-black">
                             <p className="text-[#161615] text-xs w-1/2 mr-4 font-medium">
-                                11. Start ﬁnanciering, locatie zoeken en
-                                verbouwing.
+                                11. De verbouwing gaat van start, in deze tijd
+                                ga jij inwerken bij een bestaande BB Kitchen
+                                vestiging.
                             </p>
                             <p className="text-[#161615] text-xs w-1/2 font-medium">
-                                12. Opening BB Kitchen vestiging
+                                12. Opening van jouw BB Kitchen vestiging!
                             </p>
                         </div>
                     </div>
@@ -145,8 +149,7 @@ export const SubFooter = () => {
                                     contactformulier.
                                 </p>
                                 <p className="text-[#161615] mb-4 text-lg font-medium">
-                                    2. Je ontvangt direct de BB Kitchen
-                                    franchise brochure per e-mail.
+                                    2. Wij nemen jouw aanvraag in behandeling.
                                 </p>
                             </div>
                             <div className="px-4 w-[30%]">
@@ -156,19 +159,21 @@ export const SubFooter = () => {
                                     maken.
                                 </p>
                                 <p className="text-[#161615] mb-4 text-lg font-medium">
-                                    4. Je ontvangt een vragenformulier per
+                                    4. Je ontvangt de franchisebrochure per
                                     e-mail.
                                 </p>
                             </div>
                             <div className="w-[30%]">
                                 <p className="text-[#161615] mb-4 text-lg font-medium">
-                                    5. Naar aanleiding van de ingevulde
-                                    vragenlijst kijken we of er een match is.
+                                    5. Er is een tweede contact moment voor
+                                    extra vragen en het inplannen van een
+                                    kennismakingsgesprek.
                                 </p>
                                 <p className="text-[#161615] mb-4 text-lg font-medium">
-                                    6. We sturen je een uitgebreide franchise
-                                    brochure met details over de ﬁnanciën van
-                                    een BB Kitchen vestiging.
+                                    6. Op ons hoofdkantoor krijg je een
+                                    uitgebreide presentatie en daarna gaan we
+                                    sfeer en gerechten proeven in onze BB
+                                    Kitchen vestiging.
                                 </p>
                             </div>
                         </div>
